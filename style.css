@@ -1,0 +1,48 @@
+:root{
+  --blue:#1e90ff;
+  --green:#00FF00;
+
+}
+#container{
+border: 2px solid grey;
+/* text-align: center; */
+background-color: red;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.listadder{
+  display: flex;
+}
+.text{
+  font-weight: bolder;
+  color:white
+}
+#myul{
+  list-style: none;
+  border:
+}
+#myul li{
+  border: 1px solid grey;
+  width:100%;
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  margin-left: -20px;
+}
+
+.close{
+  position: absolute;
+  width:20px;
+  right:2%;
+  top:0;
+}
+.done{
+  text-decoration : line-through;
+  background-color: grey;
+#myul li:nth-child(odd){
+  /* background-color : var(--blue) ; */
+}
+}
